@@ -4,12 +4,12 @@ import Home from "./Components/Home.js";
 
 function App() {
   return (
-    <div>
-    <Router>
-      <Switch>
-        <Route path="/" exact component={Home} />
-      </Switch>
-    </Router>
+    <div class="bg-black	">
+      <Router>
+        <Switch>
+          <Route path="/" exact component={Home} />
+        </Switch>
+      </Router>
     </div>
   );
 }
