@@ -12,7 +12,7 @@ export default function Home() {
         <div class="text-center PM text-fly w-50 mx-20">
           <blockquote>
             <p class="text-7xl font-large ">
-             Hello!<span class="waving-hand">👋</span> I am Rutik!
+                <Typist>Hello!<span class="waving-hand">👋</span> I am Rutik!</Typist>
             </p>
           </blockquote>
         </div>
