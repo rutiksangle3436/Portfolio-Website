@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'fly': '#FFFF66' 
+        'fly': '#FF355E'
       }
     },
   },

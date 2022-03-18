@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@1,100&display=swap');
+
 
 .HC{
     margin-left: 40%;
@@ -29,4 +31,28 @@
 
   .PM{
     font-family: 'Permanent Marker', cursive;
+  }
+
+  .GS{
+    font-family: 'Grandstander', cursive;
+  }
+
+  .ZB{
+    box-shadow: 0 20px 20px -2px rgba(0,0,0,.2);
+
+  }
+
+  .underline--magical {
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+    transition: background-size 0.25s ease-in;
+  }
+  .underline--magical:hover {
+    background-size: 100% 88%;
+  }
+
+  .fx{
+    position: fixed;
   }
