@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Header() {
   return (
-    <div class="ZB fixed min-w-full shadow-red-500">
+    <div class="ZB min-w-full shadow-red-500">
         <Navbar bg="dark" variant="dark" expand="lg">
           <Container>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />

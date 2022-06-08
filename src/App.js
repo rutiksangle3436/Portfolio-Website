@@ -1,13 +1,16 @@
 import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./Components/Home.js";
+import Lamp from "./Components/Lamp.js";
+
+
 
 function App() {
   return (
-    <div class="bg-slate">
+    <div class="">
+    
       <Router>
         <Switch>
-          <Route path="/" exact component={Home} />
+          <Route path="/" exact component={Lamp} />
         </Switch>
       </Router>
     </div>
