@@ -16,6 +16,7 @@
     "react-scripts": "5.0.0",
     "react-tsparticles": "^2.0.6",
     "react-typist": "^2.0.5",
+    "update": "^0.7.4",
     "web-vitals": "^2.1.4",
     "yarn": "^1.22.19"
   },
